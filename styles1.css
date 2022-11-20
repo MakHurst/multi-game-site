@@ -1,0 +1,50 @@
+
+/* Start Screen */
+
+.header {
+
+    text-align: center;
+    font-family: Papyrus;
+    font-size: 80px;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    color: Red;
+
+    
+}
+
+#start-link { 
+    color: white;
+}
+
+#start-game {
+
+    position: absolute;
+    top: 510px;              /* brings the start prompt 310 ixels down from the top */
+    left: 30px;
+    padding: 15px 15px 15px 15px;
+    color: white;
+
+    background-color: rgba(0, 0, 0, 0.508);
+    width: 640px;
+    text-align: center;
+
+}
+
+.body {
+
+    background-color: beige;
+    font-family: Arial;
+}
+
+#main-background {
+
+    background: url(images/mountain-image.jpg) no-repeat;   
+    height: 1000px;
+    width: 811px;
+    
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    
+}
