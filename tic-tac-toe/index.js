@@ -34,5 +34,10 @@ const playAgain = document.getElementById("play-again");
         tile.innerText = PLAYER_X;
         boardState[tileNumber - 1] = PLAYER_X;
         turn = PLAYER_O;
+    } else {
+        tile.innerText = PLAYER_O;
+        boardState[tileNumber - 1] = PLAYER_O;
+        turn = PLAYER_X;
+
     }
  }
